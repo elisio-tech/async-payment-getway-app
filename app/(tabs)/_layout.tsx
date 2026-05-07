@@ -4,7 +4,11 @@ import React from "react";
 
 export default function TabLayout() {
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
       {tabs.map((tab) => (
         <Tabs.Screen
           name={tab.name}

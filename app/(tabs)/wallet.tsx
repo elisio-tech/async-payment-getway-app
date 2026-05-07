@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Settings() {
+export default function Wallet() {
   return (
     <View style={style.container}>
-      <Text>Settings Screen</Text>
+      <Text>Wallet Screen</Text>
     </View>
   );
 }
