@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function App() {
+export default function Home() {
   return (
     <View style={style.container}>
       <Text>Hello react native!</Text>
