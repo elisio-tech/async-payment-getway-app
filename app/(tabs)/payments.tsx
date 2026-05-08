@@ -1,11 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Payments() {
   return (
-    <View style={style.container}>
+    <SafeAreaView style={style.container}>
       <Text>Payments Screen</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
